@@ -6,7 +6,7 @@ var app= new Vue({
         contacts:[
             {
                 name: 'Michele',
-                avatar: '_1',
+                avatar: "./img/avatar_1.jpg",
                 visible: true,
                 messages: [
                 {
@@ -34,7 +34,7 @@ var app= new Vue({
             },
             {
                 name: 'Fabio',
-                avatar: '_2',
+                avatar: "./img/avatar_2.jpg",
                 visible: true,
                 messages: [
                     {
@@ -57,7 +57,7 @@ var app= new Vue({
         
             {
                 name: 'Samuele',
-                avatar: '_3',
+                avatar: "./img/avatar_3.jpg",
                 visible: true,
                 messages: [
                     {
@@ -80,7 +80,7 @@ var app= new Vue({
             },
             {
                 name: 'Luisa',
-                avatar: '_4',
+                avatar: "./img/avatar_4.jpg",
                 visible: true,
                 messages: [
                     {
@@ -98,13 +98,26 @@ var app= new Vue({
         ],
         user:{
             name:"Tony",
-            avatar:"_io",
-        }
+            avatar:"./img/avatar_6.jpg" ,
+        },
+        indexContact:0,
     },
+
+    
+    
+
     methods:{
         AvatarPic(contact){
             
             return `img/avatar${contact.avatar}.jpg`;
-        }
+        },
+        
+        changeContact(index){
+            console.log(index)
+            this.indexContact = index;
+            
+
+        },
     }
 })
+
