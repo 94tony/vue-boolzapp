@@ -1,0 +1,150 @@
+.contact:hover{
+    background-color: rgb(243, 237, 237);
+}
+
+.avatar{
+    max-width: 40px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.avatar:hover,.user-pic:hover{
+    border:2px solid gray;
+}
+
+.contact, .user{
+    font-size: 18px;
+}
+
+.user{
+    font-weight: bold;
+}
+
+.background{
+    background: rgb(66,148,136);
+    background: linear-gradient(180deg, rgba(66,148,136,1) 20%, rgba(219,219,211,1) 20%);
+    background-repeat:no-repeat;
+}
+
+.menu{
+    background-color: white;
+}
+
+.bg-chat{
+    background-image: url("img/mine.jpg");
+}
+
+.bar{
+    background-color: lightgray;
+    min-height: 60px;
+    
+}
+
+.bar-b{
+    margin-left: 0.5px;
+    background-color: lightgray;
+    min-height: 60px;
+    
+}
+
+.icons{
+    font-size: 20px;
+    color:gray;
+}
+.icons > *{
+    padding-right:20px;
+}
+.icons > *:hover{
+    color:rgb(58, 56, 56);
+}
+
+.sent{
+    align-self: flex-end;
+    background-color:#DCF8C6;
+}
+
+.recieved{
+    text-align: left;
+    align-self: flex-start;
+    background-color: white;
+}
+
+.sent,.recieved{
+    font-size:16px;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.text-align-right{
+    text-align: right;
+}
+
+.contacts{
+    height:65vh;
+    margin-top:30px;
+    overflow-x:hidden;
+    overflow-y: scroll;
+}
+
+.minor-text{
+    font-weight:normal;
+    color: gray;
+    font-size: 12px;
+}
+
+.page{
+    height:90vh;
+    
+}
+
+.chat-info{
+    padding-left: 10px;
+}
+
+.input{
+    line-height: 40px;
+    border:none;
+    border-radius: 12px;
+}
+
+.bottom-icon{
+    color:gray;
+    font-size:25px;
+    text-align: center;
+}
+
+.bottom-icon:hover{
+    color:rgb(58, 56, 56);
+}
+
+.notification{
+    background-color:#9FD8F8;
+    font-size:12px;
+    width:300px;
+    
+}
+
+.bell{
+    color:#9FD8F8;
+    background-color:white;
+    border:5px solid white;
+    border-radius:100%;
+    font-size:20px;
+    margin-right:10px;
+    padding-top:4px;
+}
+
+.menu-link{
+    color:gray;
+}
+
+.search-chat{
+    margin-top: 15px;
+    color:gray;
+}
+
+.date{
+    font-size:11px;
+    line-height:11px;
+    text-align: right;
+}
